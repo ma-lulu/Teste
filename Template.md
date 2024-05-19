@@ -3,43 +3,250 @@ title: "Notas +"
 draft: false
 language: pt-br
 featured_image: images/featured/featured-img-placeholder.png 
-summary: Sumário de seu projeto
+summary: Inspirado pela simplicidade e eficácia de um quadro de lembretes com post-it, o Notas+ é uma aplicação de anotações que captura essa essência para resolver o desafio cotidiano de lembrar pequenos detalhes. 
 author: Unifil
 categories: Blog
-tags: ["CC", "ES", "ADS", "IA", "Educação", "Tecnologia", "Ciência", "Saúde", "Cultura", "Entretenimento"] 
+tags: ["CC", "ES", "ADS", "Educação", "Tecnologia", "Ciência", "Organização", "Facilidade de Uso"] 
+# linkandroid: link  de download do aplicativo em android
+# linkios: link de download aplicativo em ios
 linkweb: http://168.75.104.182:5173/
 linkblog: https://projetoextensaonotas.blogspot.com/
+# linkvideo: Link do video
 ---
 
-__Propaganda__ :smile:
+# ABAIXO O CONTEÙDO DE EXPLICAÇÂO DE SEU APLICATIVO
 
-- __[pica](https://nodeca.github.io/pica/demo/)__ - redimensionamento de imagem de alta qualidade e rápido no navegador.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - i18n amigável para desenvolvedores com suporte a plurais e sintaxe fácil.
+# h1 Heading :blush:
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-Você vai gostar desses projetos!
 
----
+## Horizontal Rules
 
-# EXPLICAÇÃO DO APLICATIVO
-
-# Notas+: Aplicativo de Anotações
-
-## Introdução
-
-O Notas+ é uma aplicação de anotações que resolve o dilema frequente de esquecer pequenos detalhes do dia a dia que são importantes, mas acabam sendo esquecidos.
-
-## Funcionamento da Memória Humana
-
-A mente humana opera com duas formas de memória distintas: a de curto prazo e a de longo prazo. A memória de curto prazo retém informações por um breve período de tempo, como lembretes para enviar um e-mail ou realizar uma tarefa na próxima semana. No entanto, essas informações geralmente não são praticadas o suficiente para se fixarem na memória por muito tempo. Consequentemente, é comum esquecê-las após algum tempo, e mesmo que estejam acessíveis na memória de curto prazo quando são recebidas, é provável que sejam esquecidas quando mais necessárias, a menos que haja um estímulo externo que o faça lembrar.
-
-## Solução Oferecida pelo Notas+
-
-Para evitar depender da sorte, o Notas+ oferece uma solução prática onde, com apenas alguns cliques, os usuários poderão armazenar essas "notas de curto prazo" que servirão de estímulo para o cérebro trazer a tona a memória de curto prazo em questão.
-
-## Conclusão
-
-Com o Notas+, os usuários podem facilmente registrar e manter essas pequenas informações que são facilmente esquecidas, garantindo que estejam acessíveis quando mais necessárias. Nunca mais esqueça um compromisso importante ou uma tarefa urgente - deixe o Notas+ cuidar disso para você.
+***
 
 ---
 
-*Nota: Este documento é uma descrição do aplicativo Notas+ e seu funcionamento, baseado nas informações fornecidas.*
+___
+
+
+## Typographic replacements
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,,  -- ---
+
+"Smartypants, double quotes" and 'single quotes'
+
+
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+
+
+## Blockquotes
+
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+1. You can use sequential numbers...
+1. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+1. bar
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
+
+```
+Sample text here...
+```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+
+
+## Images
+
+![Minion](https://octodex.github.com/images/minion.png)
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+Like links, Images also have a footnote style syntax
+
+![Alt text][id]
+
+With a reference later in the document defining the URL location:
+
+[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+
+
+## Plugins
+
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+
+
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+
+> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
+>
+> Shortcuts (emoticons): :-) :-( 8-) ;)
+
+see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+
+
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+- X^2^
+- H~2~O
+
+
+### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+
+++Inserted text++
+
+
+### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+
+==Marked text==
+
+
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b
+
+
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
+
+This is HTML abbreviation example.
+
+It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
+
+*[HTML]: Hyper Text Markup Language
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
+
